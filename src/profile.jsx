@@ -7,7 +7,7 @@ export default function Profile() {
 const [userInfo, setuserInfo] = useState([])
 useEffect(() => {
   axios({
-    url:'http://localhost:3000/user/5',
+    url:'https://back-end-week7-1.vercel.app/user/user/5',
     method:'get'
     
   }).then(res => {
